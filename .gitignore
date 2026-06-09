@@ -1,0 +1,24 @@
+# Secrets and credentials
+.env
+credentials.json
+
+# Python virtual environment and cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local mock data
+submissions_mock.json
+uploads/
+
+# Node dependencies and build folders
+node_modules/
+dist/
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local

@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+.env
+credentials.json
+frontend/
+walkthrough.md
+task.md
+implementation_plan.md
+uploads/
+submissions_mock.json
+*log
