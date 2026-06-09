@@ -1,6 +1,8 @@
 # Secrets and credentials
 .env
 credentials.json
+env.yaml
+GCP_VM_CONFIG.md
 
 # Python virtual environment and cache
 venv/
