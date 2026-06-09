@@ -20,4 +20,6 @@ jobs:
           script: |
             cd /home/${{ secrets.GCP_VM_USER }}/autonomiqa-website
             git pull origin main
+            source venv/bin/activate
+            pip install -r requirements.txt
             sudo systemctl restart autonomiqa
